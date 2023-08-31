@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="climatempo.css">
+    <title>Clima Tempo</title>
+</head>
+<body class="body">
+
+    <div id="sol" class="container-sol">
+        
+        <div>
+            <img class="img" src="../ApiClimaTempo/img/4.jpg">
+        </div>
+        <div class="card">
+            <div class="graus">
+                <span id="grausSol"></span>
+            </div>
+            <div class="clima">
+                <span id="climaSol"></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="nublado" class="container-nublado">
+        <div class="cidade">
+            <span id="cidade"></span>
+        </div>
+        <div>
+            <img class="img" src="../ApiClimaTempo/img/2n.jpg">
+        </div>
+        <div class="card">
+            <div class="graus">
+                <span id="grausNublado"></span>
+            </div>
+            <div class="clima">
+                <span id="climaNublado"></span>
+            </div>
+        </div>    
+    </div>
+    
+
+    <div id="frio" class="container-frio">
+        <div>
+            <img class="img" src="../ApiClimaTempo/img/8.jpg">
+        </div>
+        <div class="card">
+            <div class="graus">
+                <span id="grausFrio"></span>
+            </div>
+            <div class="clima">
+                <span id="climaFrio"></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="chuva" class="container-chuva">
+        <div>
+            <img class="img" src="../ApiClimaTempo/img/5.jpg">
+        </div>
+        <div class="card">
+            <div class="graus">
+                <span id="grausChuva"></span>
+            </div>
+            <div class="clima">
+                <span id="climaChuva"></span>
+            </div>
+        </div>
+    </div>
+    <script src="climatempo.js"></script>
+</body>
+</html>
